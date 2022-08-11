@@ -512,7 +512,8 @@ color:rgba(78, 78, 78, 0.63);
 
 
 .specification-start{
-    background-color:rgba(211, 211, 211, 0.212);
+    background-color:var(--brown);
+    /* background-color:rgba(211, 211, 211, 0.212); */
 }
 
 .specification_container{
@@ -567,7 +568,8 @@ color:rgba(78, 78, 78, 0.63);
     letter-spacing:1px;
 }
 .specs_para p{
-    color:rgb(47, 47, 47);
+    color:rgb(233, 233, 233);
+    /* color:rgb(47, 47, 47); */
     font-size:.8rem;
     letter-spacing: 1px;
     font-family:var(--ulfont);
