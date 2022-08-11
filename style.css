@@ -357,7 +357,7 @@ color:var(--gold);
     letter-spacing:1px;
     padding-bottom:.6rem;
     margin-top:0rem;
-    padding: 1rem;
+    padding:.5rem;
 }
 .about span{
     color:rgb(199, 199, 199);
@@ -566,11 +566,12 @@ color:rgba(78, 78, 78, 0.63);
     color:rgb(187, 187, 187);
     font-family: var(--headfont);
     letter-spacing:1px;
+    padding-bottom:.3rem;
 }
 .specs_para p{
     color:rgb(233, 233, 233);
     /* color:rgb(47, 47, 47); */
-    font-size:.8rem;
+    font-size:.9rem;
     letter-spacing: 1px;
     font-family:var(--ulfont);
 }
@@ -578,7 +579,7 @@ color:rgba(78, 78, 78, 0.63);
 
 /* ///////////////////   Background img    /////////////////// */
 
-
+/* 
 .bg_img_section{
     width:100%;
     margin:1rem auto;
@@ -591,14 +592,22 @@ color:rgba(78, 78, 78, 0.63);
     background-attachment: fixed;
     width:100%;
     height:350px;
-}
+} */
 
 
 /* ///////////////////    contact form    ////////////////// */
 
-.contact_start{
+
+
+.bg_img{
+    background-image:url('./images/hraddphonebg5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
     width:100%;
-    margin:auto;
+    height:350px;
+    padding:1rem;
 }
 
 
@@ -619,7 +628,7 @@ color:rgba(78, 78, 78, 0.63);
     grid-column-gap:.3rem;
 }
 form{
-    padding:1rem;
+    padding:0rem;
 }
 form input{
     margin:.2rem 0rem;
@@ -641,7 +650,7 @@ form input{
 }
 
 form button{
-    padding:.6rem;
+    padding:.4rem;
     width:100%;
     margin:.7rem 0rem;
 }
@@ -655,19 +664,22 @@ textarea{
     padding:0rem .5rem;
 }
 input , textarea{
+    background-color:rgb(248, 247, 247);
     outline: none;
-    border:1px solid var(--brown);
-    border-radius:2px;
+    border: none;
+    border:1px solid var(--black);
+    border-radius:3px;
 }
 button{
     outline: none;
     border: none;
-    border:1px solid var(--brown);
+    border-radius:3px;
+    border:1px solid var(---white);
     color:white;
     font-size:1.2rem;
     letter-spacing:1px;
     font-family: var(--ulfont);
-    background-color:rgba(83, 43, 33, 0.719);
+    background-color:darkslategray;
 }
 
 
@@ -809,7 +821,7 @@ height:40px;
 /* ///////////////  background section   /////////////// */
 
 .bg_img{
-    height:280px;
+    height:300px;
 }
 
 
@@ -955,7 +967,7 @@ padding:.5rem;
 /* ///////////////  background section   /////////////// */
 
 .bg_img{
-    height:230px;
+    height:300px;
 }
 
 
@@ -1002,6 +1014,15 @@ padding:.5rem;
 .about_content p{
     font-size:.8rem;
 }
+
+
+/* ///////////////    bg  /////////////// */
+
+.bg_img {
+    height:300px;
+  }
+
+
 
 
 }
@@ -1096,7 +1117,7 @@ left:2.5rem;
 /* ///////////////  background section   /////////////// */
 
 .bg_img{
-    height:190px;
+    height:300px;
 }
 
 /* //////////////   footer /////////////// */
@@ -1192,6 +1213,13 @@ font-size:.8rem;
       font-size:1rem;
       letter-spacing:1px;
   }
+
+/* ///////////////    bg  /////////////// */
+
+.bg_img {
+    height:300px;
+  }
+
 
   /* ///////////////////   footer   /////////////////// */
 
@@ -1353,11 +1381,11 @@ grid-column-gap:.6rem;
 
 /* //////////////   bg_img   //////////////// */
 
+
+
 .bg_img {
-    height: 150px;
+    height:300px;
   }
-
-
 
 
   /* ///////////////////   footer   /////////////////// */
@@ -1543,10 +1571,35 @@ grid-column-gap:.6rem;
 /* //////////////   bg_img   //////////////// */
 
 .bg_img {
-    height: 150px;
+    height:400px;
   }
 
+/* ///////////////   contact   //////////////////// */
 
+
+form input{
+    width:300px;
+}
+input[type="text"]{
+    padding:1.2rem;
+}
+input[type="email"]{
+    padding:1.2rem;
+}
+textarea{
+    height:4rem;
+}
+
+.d_flex_name{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.d_flex_mess_email{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
 
   /* ///////////////////   footer   /////////////////// */
@@ -1560,8 +1613,6 @@ footer li, a{
 
 
 }
-
-
 
 
 
