@@ -17,6 +17,12 @@
 --font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+body{
+    overflow-x: hidden;
+}
+
+
 /***********   header start    ************/
 
 
@@ -409,8 +415,8 @@ color:rgba(78, 78, 78, 0.63);
 /* //////////////////  Product  ///////////////// */
 
 .product-start{
-    background-color:var(--brown);
-    /* background-color:rgba(153, 179, 182, 0.205); */
+    /* background-color:var(--brown); */
+    background-color:rgba(153, 179, 182, 0.123);
 }
 
 
@@ -430,13 +436,19 @@ color:rgba(78, 78, 78, 0.63);
 .product_img img{
     width:100%;
     height:100%;
+ filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7));
+
 }
 .produts{
     /* border:1px solid lightgray; */
-    border-radius: 2px;
-    padding:.5rem;
+    border-radius:2px;
+    padding:.3rem;
     margin-bottom:1rem;
-    /* background-color:rgba(240, 236, 236, 0.294); */
+    /* background-color:var(--brown); */
+    /* border-top-left-radius: 23%;
+    border-bottom-right-radius: 23%; */
+    /* filter: drop-shadow(8px 5.1px 2.9px rgba(0, 0, 0, 0.2)); */
+    /* background-color:rgba(44, 44, 44, 0.507); */
 }
 .product_text{
     display: flex;
@@ -445,22 +457,26 @@ color:rgba(78, 78, 78, 0.63);
     justify-content:space-around;
     align-items: center;
     padding:.4rem 0rem;
+ /* filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7)); */
 }
 
 .product_text h3{
     font-size:.8rem;
     letter-spacing:1px;
     font-family: var(--ulfont);
-    color:white;
-    background-color:rgba(14, 13, 13, 0.945);
+    /* color:white; */
+    border-radius: 2px;
     padding:.2rem;
-    font-weight: normal;
+    /* font-weight: normal; */
+    color:rgba(80, 28, 28, 0.945);
+ /* filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7)); */
 }
 
 .product_text .heart i{
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
     cursor: pointer;
     font-size: 1.9rem;
-    color:rgba(211, 211, 211, 0.644);
+    color:rgba(141, 109, 109, 0.507);
 } 
 
 .stars{
@@ -470,6 +486,7 @@ color:rgba(78, 78, 78, 0.63);
     justify-content:space-around;
     align-items: center;
     padding:.4rem 0rem;
+ filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
 }
 
 .stars_product i{
@@ -479,13 +496,15 @@ color:rgba(78, 78, 78, 0.63);
 .stars .product_price i{
     font-size:1.2rem;
     font-weight:bold;
-    color:rgba(241, 220, 220, 0.815);
+    color:rgba(0, 0, 0, 0.815);
 }
 .stars .product_price{
     font-size:.9rem;
     letter-spacing:1px;
     font-family: var(--ulfont);
-    color:white;
+    color:rgb(46, 46, 46);
+    padding:.2rem;
+    /* background-color:rgba(80, 28, 28, 0.945); */
 }
 
 
@@ -533,7 +552,7 @@ color:rgba(78, 78, 78, 0.63);
     height:100%;
 }
 .specs_para{
-    background-color:rgba(71, 42, 42, 0.781);
+    /* background-color:rgba(104, 104, 104, 0.555); */
     padding:1.5rem;
     width:100%;
 }
@@ -543,12 +562,12 @@ color:rgba(78, 78, 78, 0.63);
 }
 .specs_para h4{
     font-size:1.3rem;
-    color:var(---white);
+    color:rgb(187, 187, 187);
     font-family: var(--headfont);
     letter-spacing:1px;
 }
 .specs_para p{
-    color:lightgray;
+    color:rgb(47, 47, 47);
     font-size:.8rem;
     letter-spacing: 1px;
     font-family:var(--ulfont);
@@ -1282,7 +1301,7 @@ h3 span{
 .stars .product_price i{
     font-size:.9rem;
     font-weight:bold;
-    color:rgba(241, 220, 220, 0.815);
+    color:rgba(26, 25, 25, 0.918);
 }
 .stars .product_price{
     font-size:.8rem;
